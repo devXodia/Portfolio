@@ -8,11 +8,11 @@
   display: flex;
   width: 100%;
   max-width: 100%;
-  height: 100vh;
+  height: 80vh;
 }
 
 .img-background {
-  height: 60%;
+  height: 70%;
 }
 
 .background {
@@ -31,7 +31,7 @@
   height: 100%;
   object-fit: cover;
   position: relative;
-  top: -14px;
+  top: -49px;
 }
 
 .text-content-container {
@@ -42,7 +42,7 @@
   width: 100vw;
   max-width: 100%;
   position: absolute;
-  bottom: -11px;
+  bottom: -31px;
   left: 0;
   height: 63%;
   background: url(../../assets/img/vector.svg);
@@ -60,7 +60,7 @@
     margin-right: -26px;
     font-size: 30px;
     position: relative;
-    top: 43px;
+    top: 32px;
 
 }
 
@@ -68,6 +68,9 @@
   display: inline-flex;
   align-items: center;
   width: 77%;
+  position: relative;
+    top: -12px;
+
 }
 
 .horizontal-container {
