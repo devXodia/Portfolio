@@ -1,0 +1,25 @@
+.header {
+  // header flex w-full max-w-full bg-custom-black items-center justify-center backdrop-blur-2xl p-6 h-1/5
+  display: flex;
+  width: 100vw;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  background: #141d2f;
+  backdrop-filter: blur(32.5px);
+  padding: 37px 25px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  span {
+    color: #ffffff;
+    width: 150px;
+    height: 35.025px;
+    flex-shrink: 0;
+  }
+}
