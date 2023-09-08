@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="skills-container">
+        <div class="divider"></div>
+        <div class="content">
+            <h2>My Skills</h2>
+            <p>I have gained experience in building projects with various front end technologies and concepts.</p>
+        </div>
+    </div>
+
+    <div class="skills-box">
+        <div *ngFor="let skill of skillsList" class="skill">
+            <img src="{{ skill.url }}">
+            <span>{{ skill.name }}</span>
+        </div>
+    </div>
+</div>
