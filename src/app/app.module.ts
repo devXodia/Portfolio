@@ -8,6 +8,7 @@ import { MainScreenComponent } from './main-screen/main-screen.component';
 import { LinksSectionComponent } from './links-section/links-section.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { SkillsComponent } from './skills/skills.component';
+import { BetweenPsComponent } from './between-ps/between-ps.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { SkillsComponent } from './skills/skills.component';
     MainScreenComponent,
     LinksSectionComponent,
     AboutMeComponent,
-    SkillsComponent
+    SkillsComponent,
+    BetweenPsComponent
   ],
   imports: [
     BrowserModule,
