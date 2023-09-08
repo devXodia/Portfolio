@@ -33,7 +33,7 @@ export class SkillsComponent {
     },
     {
       name: 'CSS',
-      url: '../../assets/img/skills_icons/wp.svg'
+      url: '../../assets/img/skills_icons/css.svg'
     },
     {
       name: `Material design`,
