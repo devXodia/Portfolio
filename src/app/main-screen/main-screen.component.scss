@@ -45,7 +45,7 @@
   bottom: -31px;
   left: 0;
   height: 63%;
-  background: url(../../assets/img/vector.svg);
+  background: url('../../assets/img/vector.svg');
   background-position: right;
   background-repeat: no-repeat;
   background-size: contain;
@@ -96,6 +96,7 @@
 .dev-span {
     font-size: 25px;
     margin-top: -19px;
+    color: #9747FF;
 }
 
 .btn {
