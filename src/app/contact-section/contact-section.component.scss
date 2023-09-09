@@ -10,16 +10,116 @@
   text-align: center;
   padding: 37px 25px;
   box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
 }
 
 .bg-img {
   width: 100%;
-  height: 100%;
+  height: 315px;
   position: absolute;
-  left: -308px;
-  bottom: -215px;
-  background-image: url('../../assets/img/green_shadow2.svg');
+  right: -314px;
+  top: 20px;
+  background-image: url("../../assets/img/green_shadow2.svg");
   filter: blur(25.5px);
-  transform: rotate(218deg);
+  transform: rotate(109deg);
   flex-shrink: 0;
+}
+
+.head-container {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  align-items: center;
+  gap: 5px;
+  h2 {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+  }
+}
+
+.divider {
+  height: 3px;
+  width: 20px;
+  background-color: #9747ff;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  margin-right: 5px;
+}
+
+.sub-container {
+  width: 340px;
+  gap: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 73px;
+  text-align: left;
+  position: relative;
+  h3 {
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+
+.contact-span {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  margin-left: 5px;
+}
+
+.name,
+.email {
+  display: flex;
+  width: 340px;
+  height: 40px;
+  padding: 15px 25px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  border: 1px solid var(--style-1-syle-1-a-green-purple-purple, #9747ff);
+  background: var(--style-1-syle-1-a-green-purple-blue-bg, #141d2f);
+}
+
+.textarea {
+  display: flex;
+  width: 340px;
+  height: 162px;
+  padding: 15px 25px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 10px;
+  border: 1px solid var(--style-1-syle-1-a-green-purple-purple, #9747ff);
+  background: var(--style-1-syle-1-a-green-purple-blue-bg, #141d2f);
+}
+
+.btn-submit {
+  display: flex;
+  padding: 15px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: #70e61c;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+.form{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
 }
