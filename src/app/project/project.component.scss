@@ -10,6 +10,7 @@
   text-align: center;
   padding: 37px 25px;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 .description-container {
@@ -64,4 +65,27 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
+}
+
+.bg-img {
+  width: 290.964px;
+  height: 342.535px;
+  position: absolute;
+  background-image: url(../../assets/img/purple_shadow2.svg);
+  filter: blur(45.5px);
+  transform: rotate(123deg);
+
+  background-position: bottom;
+  bottom: -3416px;
+  
+  flex-shrink: 0;
+}
+
+
+.above-bg {
+  position: relative;
+}
+
+.project-img{
+  position: relative;
 }

@@ -1,0 +1,25 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+  background-color: #141d2f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  padding: 37px 25px;
+  box-sizing: border-box;
+}
+
+.bg-img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: -308px;
+  bottom: -215px;
+  background-image: url('../../assets/img/green_shadow2.svg');
+  filter: blur(25.5px);
+  transform: rotate(218deg);
+  flex-shrink: 0;
+}
