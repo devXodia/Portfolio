@@ -1,18 +1,25 @@
 <div class="container">
   <div class="project-img">
-    <img src="../../assets/img/projects/el-pollo-loco.png" />
+    <ng-content select="[img]"></ng-content>
   </div>
 
   <div class="description-container">
     <div class="title">
-        <ng-content select="title"></ng-content>
+      <ng-content select="[title]"></ng-content>
     </div>
-    
-    <ng-content select="skills-used"></ng-content>
-    <ng-content select="description"></ng-content>
+    <div class="skills-used">
+      <ng-content select="[skills-used]"></ng-content>
+    </div>
+    <div class="description">
+      <ng-content select="[description]"></ng-content>
+    </div>
   </div>
   <div class="buttons-container">
-    <ng-content select="test-btn"></ng-content>
-    <ng-content select="github-btn"></ng-content>
+    <div class="test">
+      <ng-content select="[test-btn]"></ng-content>
+    </div>
+    <div class="github">
+      <ng-content select="[github-btn]"></ng-content>
+    </div>
   </div>
 </div>
