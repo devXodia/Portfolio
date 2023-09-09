@@ -9,6 +9,7 @@ import { LinksSectionComponent } from './links-section/links-section.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { SkillsComponent } from './skills/skills.component';
 import { BetweenPsComponent } from './between-ps/between-ps.component';
+import { ProjectComponent } from './project/project.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { BetweenPsComponent } from './between-ps/between-ps.component';
     LinksSectionComponent,
     AboutMeComponent,
     SkillsComponent,
-    BetweenPsComponent
+    BetweenPsComponent,
+    ProjectComponent
   ],
   imports: [
     BrowserModule,

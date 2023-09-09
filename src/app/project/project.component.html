@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="project-img">
+    <img src="../../assets/img/projects/el-pollo-loco.png" />
+  </div>
+
+  <div class="description-container">
+    <div class="title">
+        <ng-content select="title"></ng-content>
+    </div>
+    
+    <ng-content select="skills-used"></ng-content>
+    <ng-content select="description"></ng-content>
+  </div>
+  <div class="buttons-container">
+    <ng-content select="test-btn"></ng-content>
+    <ng-content select="github-btn"></ng-content>
+  </div>
+</div>
