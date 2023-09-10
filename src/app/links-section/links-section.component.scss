@@ -9,17 +9,56 @@
   gap: 42px;
   flex-shrink: 0;
   transition: transform 0.2s;
-  img{
-    &:hover{
+  img {
+    &:hover {
       cursor: pointer;
       transform: scale(1.2);
     }
   }
-  
 }
 
 .divider {
   width: 64px;
   background-color: #9747ff;
   height: 3px;
+}
+
+.scroll-container {
+  position: absolute;
+  right: -50px;
+  bottom: 120px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  transform: rotate(90deg);
+  gap: 5px;
+
+  img {
+    transform: rotate(90deg);
+  }
+}
+
+.mail {
+  display: none;
+  color: #fff;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    height: 6vh;
+  }
+  .scroll-container {
+    display: flex;
+  }
+
+  .mail{
+    display: flex;
+  }
 }

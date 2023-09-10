@@ -138,14 +138,14 @@
     width: 100%;
     max-width: 100%;
     overflow: hidden;
-    height: 80vh;
+    height: 72vh;
   }
   .img-background {
-    height: 70%;
+    height: 77%;
   }
   .background {
     background-position: top;
-    width: 81%;
+    width: 77%;
     height: 100%;
     background-color: #141d2f;
     background-size: cover;
@@ -155,60 +155,57 @@
     height: 100%;
     object-fit: none;
     position: relative;
-    top: 3px;
+    top: 5px;
   }
-  .text-content-container{
+  .text-content-container {
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    bottom: -230px;
-    left: -2px;
-    height: 93%;
+    bottom: -317px;
+    left: 0px;
+    height: 105%;
     background-position: right;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     width: 100%;
     color: white;
   }
 
-  .iam-container{
-    font-size: 40px;
+  .iam-container {
     font-style: normal;
     font-weight: 400;
-    right: -410px;
-    top: -399px;
+    right: -382px;
+    top: -436px;
     font-size: 45px;
-}
-.sub-container{
-  display: inline-flex;
+  }
+  .sub-container {
+    display: inline-flex;
     align-items: center;
     width: 77%;
     position: relative;
     top: -12px;
-}
-.horizontal-container{
-  justify-content: center;
-  flex-direction: column;
+  }
+  .horizontal-container {
+    justify-content: center;
+    flex-direction: column;
     text-align: center;
     height: 0%;
     width: 57%;
     position: relative;
-    top: -346px;
+    top: -384px;
     display: flex;
-    right: -376px;
+    right: -345px;
     align-items: center;
-}
-.name{
-  font-size: 68px;
+  }
+  .name {
+    font-size: 68px;
     font-style: normal;
     font-weight: 700;
-}
-.dev-span{
-  font-size: 36px;
+  }
+  .dev-span {
+    font-size: 36px;
     font-style: normal;
     font-weight: 400;
+  }
 }
-}
-
-
