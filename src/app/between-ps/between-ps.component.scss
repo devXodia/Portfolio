@@ -88,3 +88,20 @@
   padding: 37px 25px;
   box-sizing: border-box;
 }
+
+
+@media screen and (min-width: 414px){
+  .container{
+    height: 40vh;
+  }
+
+}
+
+@media screen and (min-width: 768px){
+  .bg-img{
+    filter: blur(50.5px);
+    transform: rotate(125deg);
+    left: -439px;
+    bottom: -224px;
+  }
+}

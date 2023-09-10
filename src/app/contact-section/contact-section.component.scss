@@ -131,3 +131,24 @@
   gap: 15px;
   width: 100%;
 }
+
+@media screen and (min-width: 414px){
+  .container{
+    height: 73vh;
+  }
+  .bg-img{
+    top: 41px;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .bg-img{
+    background-repeat: no-repeat;
+    top: 254px;
+    right: -348px;
+    transform: rotate(117deg);
+  }
+  .container{
+    height: 65vh;
+  }
+  }

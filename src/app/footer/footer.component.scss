@@ -53,3 +53,11 @@
   font-style: normal;
   font-weight: 400;
 }
+
+
+@media screen and (min-width: 768px){
+  .container{
+    height: 45vh;
+    justify-content: flex-start;
+  }
+}
