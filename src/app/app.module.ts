@@ -11,6 +11,8 @@ import { SkillsComponent } from './skills/skills.component';
 import { BetweenPsComponent } from './between-ps/between-ps.component';
 import { ProjectComponent } from './project/project.component';
 import { ContactSectionComponent } from './contact-section/contact-section.component';
+import { BetweenCfComponent } from './between-cf/between-cf.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { ContactSectionComponent } from './contact-section/contact-section.compo
     SkillsComponent,
     BetweenPsComponent,
     ProjectComponent,
-    ContactSectionComponent
+    ContactSectionComponent,
+    BetweenCfComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
