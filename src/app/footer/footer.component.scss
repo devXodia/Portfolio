@@ -61,3 +61,10 @@
     justify-content: flex-start;
   }
 }
+
+@media screen and (min-width: 820px){
+  .container{
+    height: 53vh;
+    justify-content: flex-start;
+  }
+}

@@ -45,23 +45,21 @@
   bottom: -31px;
   left: 0;
   height: 63%;
-  background: url('../../assets/img/vector.svg');
+  background: url("../../assets/img/vector.svg");
   background-position: right;
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
   color: white;
-  
 }
 
 .iam-container {
-    rotate: -90deg;
-    display: inline-flex;
-    margin-right: -26px;
-    font-size: 30px;
-    position: relative;
-    top: 32px;
-
+  rotate: -90deg;
+  display: inline-flex;
+  margin-right: -26px;
+  font-size: 30px;
+  position: relative;
+  top: 32px;
 }
 
 .sub-container {
@@ -69,8 +67,7 @@
   align-items: center;
   width: 77%;
   position: relative;
-    top: -12px;
-
+  top: -12px;
 }
 
 .horizontal-container {
@@ -94,9 +91,9 @@
 }
 
 .dev-span {
-    font-size: 25px;
-    margin-top: -19px;
-    color: #9747FF;
+  font-size: 25px;
+  margin-top: -19px;
+  color: #9747ff;
 }
 
 .btn {
@@ -112,20 +109,106 @@
   background: #70e61c;
   box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
   transition: transform 0.2s;
-  &:hover{
+  &:hover {
     cursor: pointer;
-    background-color: #9747FF;
+    background-color: #9747ff;
     transform: scale(1.1);
   }
 }
 
-
-
-@media screen and (min-width: 768px){
-  .horizontal-container{
+@media screen and (min-width: 768px) {
+  .horizontal-container {
     justify-content: center;
   }
-  .iam-container{
+  .iam-container {
     right: -150px;
   }
 }
+
+@media screen and (min-width: 820px) {
+  .iam-container {
+    right: -168px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .main-container {
+    background-color: #141d2f;
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    height: 80vh;
+  }
+  .img-background {
+    height: 70%;
+  }
+  .background {
+    background-position: top;
+    width: 81%;
+    height: 100%;
+    background-color: #141d2f;
+    background-size: cover;
+  }
+  .profile-picture {
+    width: 100%;
+    height: 100%;
+    object-fit: none;
+    position: relative;
+    top: 3px;
+  }
+  .text-content-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -230px;
+    left: -2px;
+    height: 93%;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    color: white;
+  }
+
+  .iam-container{
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    right: -410px;
+    top: -399px;
+    font-size: 45px;
+}
+.sub-container{
+  display: inline-flex;
+    align-items: center;
+    width: 77%;
+    position: relative;
+    top: -12px;
+}
+.horizontal-container{
+  justify-content: center;
+  flex-direction: column;
+    text-align: center;
+    height: 0%;
+    width: 57%;
+    position: relative;
+    top: -346px;
+    display: flex;
+    right: -376px;
+    align-items: center;
+}
+.name{
+  font-size: 68px;
+    font-style: normal;
+    font-weight: 700;
+}
+.dev-span{
+  font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+}
+}
+
+
