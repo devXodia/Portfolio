@@ -26,17 +26,22 @@
     flex-shrink: 0;
     border-radius: 41px;
     border: 2px solid var(--White, #fff);
+    transition: transform 0.2s;
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.2);
+    }
   }
 }
 
 .bg-img {
-    width: 400px;
-    height: 326px;
-    position: absolute;
-    left: -321px;
-    bottom: -205px;
-    background-image: url('../../assets/img/last_shadow.svg');
-    filter: blur(25.5px);
-    transform: rotate(205deg);
-    flex-shrink: 0;
+  width: 400px;
+  height: 326px;
+  position: absolute;
+  left: -321px;
+  bottom: -205px;
+  background-image: url("../../assets/img/last_shadow.svg");
+  filter: blur(25.5px);
+  transform: rotate(205deg);
+  flex-shrink: 0;
 }

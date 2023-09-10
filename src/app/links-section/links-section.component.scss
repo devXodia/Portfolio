@@ -8,6 +8,14 @@
   align-items: center;
   gap: 42px;
   flex-shrink: 0;
+  transition: transform 0.2s;
+  img{
+    &:hover{
+      cursor: pointer;
+      transform: scale(1.2);
+    }
+  }
+  
 }
 
 .divider {

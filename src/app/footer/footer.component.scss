@@ -33,6 +33,13 @@
   justify-content: center;
   align-items: center;
   gap: 25px;
+  a {
+    transition: transform 0.2s;
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.2);
+    }
+  }
 }
 
 .copyright {
