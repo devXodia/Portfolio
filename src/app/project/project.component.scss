@@ -27,6 +27,12 @@
   gap: 10px;
   border-radius: 10px;
   background-color: #9747ff;
+  transition: transform 0.2s;
+    &:hover {
+      cursor: pointer;
+      background-color: #70e61c;
+      transform: scale(1.1);
+    }
 }
 
 .github {
@@ -37,6 +43,12 @@
   gap: 10px;
   border-radius: 10px;
   border: 1px solid var(--style-1-syle-1-a-green-purple-green, #70e61c);
+  transition: transform 0.2s;
+    &:hover {
+      cursor: pointer;
+      background-color: #70e61c;
+      transform: scale(1.1);
+    }
 }
 
 .buttons-container {
