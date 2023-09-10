@@ -1,5 +1,6 @@
 .header {
-  // header flex w-full max-w-full bg-custom-black items-center justify-center backdrop-blur-2xl p-6 h-1/5
+  position: relative;
+  z-index: 2;
   display: flex;
   width: 100vw;
   max-width: 100%;
@@ -23,4 +24,31 @@
     flex-shrink: 0;
     font-size: 38px;
   }
+}
+
+.modal {
+  transition: width 0.1s ease-in-out;
+  width: 0;
+  top: 0;
+  right: 0;
+  overflow-x: hidden;
+  position: absolute;
+  z-index: 1;
+  max-width: 100%;
+  background: var(
+    --style-1-syle-1-a-green-purple-blue-transparency,
+    rgba(20, 29, 47, 0.8)
+  );
+  height: 100vh;
+  justify-content: center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.modal.show {
+  width: 100%; /* Expand to full width */
+  z-index: 1;
 }

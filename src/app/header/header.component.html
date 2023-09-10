@@ -1,11 +1,21 @@
+<div [ngClass]="{'modal': true, 'show': showModal}" class="modal">
+    <a href="#about" (click)="toggleModal()">About me</a>
+    <a href="#skills" (click)="toggleModal()">My skills</a>
+    <a href="#portfolio" (click)="toggleModal()">Portfolio</a>
+    <a href="#contact" (click)="toggleModal()">Contact</a>
+  </div>
+
 <div id="header" class="header">
 
 <div class="content">
     <span>Alen</span>
 
     <a href="#">
-        <img src="../../assets/img/burger_menu.svg">
+        <img *ngIf="showModal" (click)="toggleModal()" src="../../assets/img/close.svg">
+        <img *ngIf="!showModal" (click)="toggleModal()" src="../../assets/img/burger_menu.svg">
     </a>
 </div>
+
+
 
 </div>

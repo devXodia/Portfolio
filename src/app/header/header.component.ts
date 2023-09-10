@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
+
+showModal = false;
+
+toggleModal(){
+  this.showModal = !this.showModal;
+}
+
+
+
 
 }
