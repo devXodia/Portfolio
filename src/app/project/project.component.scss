@@ -108,3 +108,37 @@
   }
 
 }
+
+@media screen and (min-width: 1024px){
+  .container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    height: 50vh;
+    width: 100vw;
+  }
+  .project-img{
+    position: relative;
+    width: 50%;
+  }
+
+  .description-container{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    width: 50%;
+  }
+
+  .buttons-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    margin-top: unset;
+    position: relative;
+    top: -50px;
+    right: 100px;
+    align-self: flex-start;
+  }
+}

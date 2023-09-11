@@ -45,3 +45,13 @@
   transform: rotate(205deg);
   flex-shrink: 0;
 }
+
+
+@media screen and (min-width: 1024px){
+  .bg-img{
+    width: 524px;
+    height: 348px;
+    left: -321px;
+    bottom: -202px;
+  }
+}

@@ -59,7 +59,8 @@
   margin-right: -26px;
   font-size: 30px;
   position: relative;
-  top: 32px;
+  top: 71px;
+  left: -160px;
 }
 
 .sub-container {
@@ -71,17 +72,16 @@
 }
 
 .horizontal-container {
-  display: flex;
   flex-direction: column;
-  text-align: center;
-  height: 0%;
-  width: 100%;
-  position: relative;
-  top: 85px;
-  display: flex;
-  justify-content: center;
-  right: 0;
-  align-items: center;
+    text-align: center;
+    height: 0%;
+    width: 100%;
+    position: relative;
+    top: 57px;
+    display: flex;
+    justify-content: center;
+    right: -17px;
+    align-items: center;
 }
 
 .name {
@@ -123,6 +123,10 @@
   .iam-container {
     right: -150px;
   }
+  .text-content-container{
+    height: 63%;
+    background-position: unset;
+  }
 }
 
 @media screen and (min-width: 820px) {
@@ -131,14 +135,14 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 880px) {
   .main-container {
     background-color: #141d2f;
     display: flex;
     width: 100%;
     max-width: 100%;
     overflow: hidden;
-    height: 72vh;
+    height: 70vh;
   }
   .img-background {
     height: 77%;
@@ -164,8 +168,8 @@
     position: absolute;
     bottom: -317px;
     left: 0px;
-    height: 105%;
-    background-position: right;
+    height: 119%;
+    background-position: unset;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -175,9 +179,10 @@
   .iam-container {
     font-style: normal;
     font-weight: 400;
-    right: -382px;
-    top: -436px;
+    right: 228px;
+    top: 109px;
     font-size: 45px;
+    left: unset;
   }
   .sub-container {
     display: inline-flex;
@@ -207,5 +212,50 @@
     font-size: 36px;
     font-style: normal;
     font-weight: 400;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .img-background{
+    height: 66%;
+  }
+
+  .horizontal-container{
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 1440px){
+
+  .horizontal-container{
+    top: -409px;
+    width: 74%;
+  }
+  
+  .text-content-container{
+    height: 110%;
+  }
+  .img-background{
+    height: 73%;
+  }
+}
+
+@media screen and (min-width: 1700px){
+
+}
+
+@media screen and (min-width: 1920px){
+  .background{
+    width: 100%;
+  }
+  .main-container{
+    height: 73vh;
+  }
+  .img-background{
+    height: 82%;
+  }
+  .horizontal-container{
+    top: -345px;
+
   }
 }

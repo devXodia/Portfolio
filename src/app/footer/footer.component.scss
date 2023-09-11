@@ -68,3 +68,9 @@
     justify-content: flex-start;
   }
 }
+
+@media screen and (min-width: 1024px){
+  .container{
+    height: 34vh;
+  }
+}

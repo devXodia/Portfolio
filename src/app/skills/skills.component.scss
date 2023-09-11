@@ -1,5 +1,5 @@
 .container {
-  height: 100vh;
+  height: 110vh;
   width: 100vw;
   max-width: 100%;
   background-color: #141d2f;
@@ -43,7 +43,7 @@
   padding-right: 25px;
   margin-top: 25px;
   flex-wrap: wrap;
-  height: 73%;
+  height: 56%;
   justify-content: center;
   gap: 38px;
   align-items: center;
@@ -69,15 +69,82 @@
   }
 }
 
-@media screen and (min-width: 768px){
-  .skill{
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  button {
+    position: absolute;
+    bottom: 0px;
+    margin-right: 25px;
+    color: #fff;
+    display: flex;
+    padding: 15px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #70e61c;
+    border-radius: 10px;
+    background: #70e61c;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: transform 0.2s;
+    &:hover {
+      cursor: pointer;
+      background-color: #9747ff;
+      transform: scale(1.1);
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .skill {
     width: 130px;
-    img{
+    img {
       width: 65px;
       height: 60px;
     }
   }
-    .container{
-      height: 70vh;
+  .container {
+    height: 70vh;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+
+  .skills-container {
+    align-self: center;
+    margin-bottom: 136px;
+    margin-right: 75px;
+    gap: 50px;
+    button {
+      align-self: flex-end;
+      margin-right: 75px;
+      position: unset;
     }
   }
+
+  .skills-box {
+    gap: unset;
+    width: 70%;
+    height: 100%;
+  }
+
+  .content {
+    margin-right: unset;
+    h2 {
+      font-size: 62px;
+      font-style: normal;
+      font-weight: 700;
+    }
+  }
+  .divider {
+    width: 70px;
+    top: 130px;
+  }
+}

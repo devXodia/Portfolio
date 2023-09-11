@@ -152,3 +152,34 @@
     height: 65vh;
   }
   }
+
+  @media screen and (min-width: 1024px){
+    form{
+      position: relative;
+    }
+    .bg-img{
+      top: 342px;
+      right: -407px;
+      height: 425px;
+    }
+
+    .head-container{
+      h2{
+        font-size: 62px;
+        font-style: normal;
+        font-weight: 700;
+      }
+    }
+
+    .container{
+      flex-direction: row;
+      height: 75vh;
+    }
+    .sub-container{
+      margin-top: unset;
+      margin-bottom: 175px;
+      h3{
+        font-size: 32px;
+      }
+    }
+  }
