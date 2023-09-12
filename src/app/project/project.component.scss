@@ -141,4 +141,57 @@
     right: 100px;
     align-self: flex-start;
   }
+
+  
+}
+
+@media screen and (min-width: 1300px) {
+  .buttons-container{
+    width: 35%;
+  }
+}
+
+@media screen and (min-width: 1500px){
+  .container{
+    height: 60vh;
+  }
+  .buttons-container{
+    top: -50px;
+    right: 147px;
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 1800px){
+  .buttons-container{
+    right: 204px;
+    width: 27%;
+    top: -184px;
+  }
+
+  .container{
+    
+    height: 80vh;
+
+  }
+
+  .title{
+    font-size: 62px;
+  }
+  .skills-used{
+    font-size: 38px;
+  }
+  .description{
+    font-size: 24px;
+  }
+  .github{
+    padding: 20px 55px;
+  }
+  .test{
+    padding: 20px 55px;
+  }
+
+  .description-container{
+    height: 50%;
+  }
 }

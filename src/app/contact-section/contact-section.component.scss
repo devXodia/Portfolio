@@ -183,3 +183,33 @@
       }
     }
   }
+
+  @media screen and (min-width: 1700px){
+    .container{
+      height: 77vh;
+    }
+    .sub-container{
+      h3{
+        font-size: 45px;
+      }
+      p{
+        font-size: 26px;
+      }
+      span{
+        font-size: 28px;
+      }
+    }
+
+    .name,.email{
+      height: 65px;
+    }
+    .textarea{
+      height: 227px;
+    }
+  }
+
+  @media screen and (min-width: 1920px){
+    .container{
+      height: 70vh;
+    }
+  }

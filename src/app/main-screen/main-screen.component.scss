@@ -3,35 +3,43 @@
 @import "tailwindcss/utilities";
 
 .main-container {
-  // container flex w-full max-w-full h-screen bg-custom-black
   background-color: #141d2f;
   display: flex;
   width: 100%;
   max-width: 100%;
-  height: 80vh;
+  height: 95vh;
 }
 
 .img-background {
-  height: 70%;
+  height: 63vh;
+    width: 100vw;
+    position: relative;
+  
 }
 
 .background {
   background: url("../../assets/img/photo_shadows.svg"),
     lightgray 50% / cover no-repeat;
-  background-position: top;
-  width: 100%;
-  height: 100%;
-  background-color: #141d2f;
+    background-position: top;
+    width: 100vw;
+    height: 100%;
+    background-color: #141d2f;
+    position: absolute;
 }
 
 .profile-picture {
-  // w-full h-full object-cover relative -top-14
-
   width: 100%;
   height: 100%;
   object-fit: cover;
-  position: relative;
+  position: absolute;
   top: -49px;
+}
+
+.vector{
+  position: absolute;
+  width: 100vw;
+ 
+  top: 238px;
 }
 
 .text-content-container {
@@ -45,7 +53,7 @@
   bottom: -31px;
   left: 0;
   height: 63%;
-  background: url("../../assets/img/vector.svg");
+  // background: url("../../assets/img/vector.svg");
   background-position: right;
   background-repeat: no-repeat;
   background-size: contain;
@@ -97,14 +105,14 @@
 }
 
 .btn {
-  margin-top: 40px;
+  margin-top: 17px;
   margin-right: 42px;
   display: inline-flex;
   padding: 15px 30px;
   justify-content: center;
   align-items: center;
   gap: 10px;
-  background-color: #70e61c;
+  
   border-radius: 10px;
   background: #70e61c;
   box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -115,6 +123,26 @@
     transform: scale(1.1);
   }
 }
+
+@media screen and (max-width: 360px){
+  .img-background{
+    height: 56vh;
+  }
+}
+
+@media screen and (min-width: 390px){
+  .img-background{
+    height: 51vh;
+  }
+}
+
+@media screen and (min-width: 412px){
+  .img-background{
+    height: 49vh;
+  }
+}
+
+
 
 @media screen and (min-width: 768px) {
   .horizontal-container {
@@ -145,7 +173,7 @@
     height: 70vh;
   }
   .img-background {
-    height: 77%;
+    height: 88%;
   }
   .background {
     background-position: top;
@@ -161,6 +189,11 @@
     position: relative;
     top: 5px;
   }
+
+.vector{
+  top: 194px;
+}
+
   .text-content-container {
     display: flex;
     justify-content: center;
@@ -175,6 +208,7 @@
     width: 100%;
     color: white;
   }
+
 
   .iam-container {
     font-style: normal;
@@ -217,13 +251,21 @@
 
 @media screen and (min-width: 1024px) {
   .img-background{
-    height: 66%;
+    height: 76%;
   }
+  
 
   .horizontal-container{
     width: 70%;
   }
 }
+
+@media screen and (min-width: 1280px){
+  .vector{
+    top: 148px;
+  }
+}
+
 
 @media screen and (min-width: 1440px){
 
@@ -236,26 +278,46 @@
     height: 110%;
   }
   .img-background{
-    height: 73%;
+    height: 79%;
+  }
+  .vector{
+    top: 103px;
   }
 }
 
-@media screen and (min-width: 1700px){
-
+@media screen and (min-width: 1650px){
+  .vector{
+    top: 43px;
+  }
+  .background{
+    width: 57%;
+  }
 }
 
 @media screen and (min-width: 1920px){
-  .background{
-    width: 100%;
-  }
-  .main-container{
-    height: 73vh;
-  }
-  .img-background{
-    height: 82%;
+  .vector{
+    top: 0px;
   }
   .horizontal-container{
-    top: -345px;
-
+    width: 84%;
   }
+  .iam-container{
+    font-style: normal;
+    font-weight: 400;
+    right: 304px;
+    top: 150px;
+    font-size: 64px;
+    left: unset;
+  }
+  .name{
+    font-size: 92px;
+    font-style: normal;
+    font-weight: 700;
 }
+.dev-span{
+  font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+}
+  }
+
