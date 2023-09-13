@@ -211,6 +211,8 @@
   @media screen and (min-width: 1920px){
     .container{
       height: 70vh;
+      max-width: 1920px;
+      width: 100%;
     }
     .sub-container{
       p{

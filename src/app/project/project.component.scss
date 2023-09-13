@@ -102,12 +102,6 @@
   position: relative;
 }
 
-@media screen and (min-width: 414px){
-  .container{
-    height: 80vh;
-  }
-
-}
 
 @media screen and (min-width: 1024px){
   .container{
@@ -115,7 +109,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-end;
-    height: 50vh;
+    height: 750px !important;
     width: 100vw;
   }
   .project-img{
@@ -152,9 +146,6 @@
 }
 
 @media screen and (min-width: 1500px){
-  .container{
-    height: 60vh;
-  }
   .buttons-container{
     top: -50px;
     right: 147px;
@@ -194,4 +185,13 @@
   .description-container{
     height: 50%;
   }
+  
+}
+
+@media screen and (min-width:1920px){
+  .container{
+    max-width: 1920px;
+    width: 100%;
+  }
+  
 }

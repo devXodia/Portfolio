@@ -5,5 +5,15 @@ html{
 body{
     margin: 0;
     overflow: hidden;
-    
+    max-width: 100%;
 }
+
+:host{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #141d2f;
+    width: 100vw;
+    max-width: 100%;
+  }

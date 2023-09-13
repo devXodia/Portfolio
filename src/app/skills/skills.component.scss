@@ -181,4 +181,19 @@
     max-width: 680px;
     max-height: 339px;
   }
+
+  .container{
+    max-width: 1920px;
+    width: 100%;
+  }
+  :host{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #141d2f;
+  }
+  .divider{
+    top: 151px;
+  }
 }
