@@ -91,6 +91,10 @@
   border-radius: 10px;
   border: 1px solid var(--style-1-syle-1-a-green-purple-purple, #9747ff);
   background: var(--style-1-syle-1-a-green-purple-blue-bg, #141d2f);
+  &:hover {
+    cursor: pointer;
+    border: 1px solid var(--style-1-syle-1-a-green-purple-green, #70e61c);
+  }
 }
 
 .textarea {
@@ -103,6 +107,14 @@
   border-radius: 10px;
   border: 1px solid var(--style-1-syle-1-a-green-purple-purple, #9747ff);
   background: var(--style-1-syle-1-a-green-purple-blue-bg, #141d2f);
+  &:hover {
+    cursor: pointer;
+    border: 1px solid var(--style-1-syle-1-a-green-purple-green, #70e61c);
+  }
+}
+
+.name:focus, .email:focus, .textarea:focus{
+  outline: none;
 }
 
 .btn-submit {
@@ -115,9 +127,9 @@
   background: #70e61c;
   box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
   transition: transform 0.2s;
-  &:hover{
+  &:hover {
     cursor: pointer;
-    background-color: #9747FF;
+    background-color: #9747ff;
     transform: scale(1.1);
   }
 }
@@ -132,91 +144,113 @@
   width: 100%;
 }
 
-@media screen and (min-width: 414px){
-  .container{
+
+
+.background-image-green {
+  background-image: url('../../assets/img/sucess.svg');
+  background-size: cover;
+  border: 1px solid#70E61C;
+  background-position: right top; 
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+  background-origin: content-box;
+}
+.background-image-red {
+  background-image: url('../../assets/img/error.svg');
+  background-size: cover;
+  border: 1px solid #E61C40;
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+  background-origin: content-box; 
+}
+
+@media screen and (min-width: 414px) {
+  .container {
     height: 73vh;
   }
-  .bg-img{
+  .bg-img {
     top: 41px;
   }
 }
 
-@media screen and (min-width: 768px){
-  .bg-img{
+@media screen and (min-width: 768px) {
+  .bg-img {
     background-repeat: no-repeat;
     top: 254px;
     right: -348px;
     transform: rotate(117deg);
   }
-  .container{
+  .container {
     height: 65vh;
   }
+}
+
+@media screen and (min-width: 1024px) {
+  form {
+    position: relative;
+  }
+  .bg-img {
+    top: 342px;
+    right: -407px;
+    height: 425px;
   }
 
-  @media screen and (min-width: 1024px){
-    form{
-      position: relative;
-    }
-    .bg-img{
-      top: 342px;
-      right: -407px;
-      height: 425px;
-    }
-
-    .head-container{
-      h2{
-        font-size: 62px;
-        font-style: normal;
-        font-weight: 700;
-      }
-    }
-
-    .container{
-      flex-direction: row;
-      height: 75vh;
-    }
-    .sub-container{
-      margin-top: unset;
-      margin-bottom: 175px;
-      h3{
-        font-size: 32px;
-      }
+  .head-container {
+    h2 {
+      font-size: 62px;
+      font-style: normal;
+      font-weight: 700;
     }
   }
 
-  @media screen and (min-width: 1700px){
-    .container{
-      height: 77vh;
+  .container {
+    flex-direction: row;
+    height: 75vh;
+  }
+  .sub-container {
+    margin-top: unset;
+    margin-bottom: 175px;
+    h3 {
+      font-size: 32px;
     }
-    .sub-container{
-      h3{
-        font-size: 45px;
-      }
-      p{
-        font-size: 26px;
-      }
-      span{
-        font-size: 28px;
-      }
-    }
+  }
+}
 
-    .name,.email{
-      height: 65px;
+@media screen and (min-width: 1700px) {
+  .container {
+    height: 77vh;
+  }
+  .sub-container {
+    h3 {
+      font-size: 45px;
     }
-    .textarea{
-      height: 227px;
+    p {
+      font-size: 26px;
+    }
+    span {
+      font-size: 28px;
     }
   }
 
-  @media screen and (min-width: 1920px){
-    .container{
-      height: 70vh;
-      max-width: 1920px;
-      width: 100%;
-    }
-    .sub-container{
-      p{
-        font-size: 30px;
-      }
+  .name,
+  .email {
+    height: 65px;
+  }
+  .textarea {
+    height: 227px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .container {
+    height: 70vh;
+    max-width: 1920px;
+    width: 100%;
+  }
+  .sub-container {
+    p {
+      font-size: 30px;
     }
   }
+}

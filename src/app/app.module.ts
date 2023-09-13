@@ -13,7 +13,8 @@ import { ProjectComponent } from './project/project.component';
 import { ContactSectionComponent } from './contact-section/contact-section.component';
 import { BetweenCfComponent } from './between-cf/between-cf.component';
 import { FooterComponent } from './footer/footer.component';
-
+import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule} from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,11 +27,14 @@ import { FooterComponent } from './footer/footer.component';
     ProjectComponent,
     ContactSectionComponent,
     BetweenCfComponent,
-    FooterComponent
+    FooterComponent,
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

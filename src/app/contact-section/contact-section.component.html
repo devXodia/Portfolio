@@ -17,10 +17,10 @@
     <p>Need a Frontend developer?<span class="contact-span">Contact me!</span></p>
   </div>
 
-  <form class="form">
-    <input class="name" placeholder="Your name" type="text" required>
-    <input class="email" placeholder="Your email" type="email" required>
-    <textarea class="textarea" required placeholder="Your message"></textarea> 
-    <button class="btn-submit" type="submit">Send message :)</button>
+  <form class="form" (submit)="sendMail()" #myForm ngNativeValidate>
+    <input class="name" placeholder="Your name" type="text" name="name" #nameField required (keydown)="onKeyDown($event)">
+    <input class="email" placeholder="Your email" type="email" #emailField required (keydown)="onKeyDown($event)">
+    <textarea class="textarea" required  name="message" #messageField placeholder="Your message" (keydown)="onKeyDown($event)" ></textarea> 
+    <button class="btn-submit" #sendButton type="submit">Send message :)</button>
   </form>
 </div>
