@@ -21,7 +21,7 @@
 
 .test {
   display: flex;
-  padding: 15px 30px;
+  // padding: 15px 30px;
   justify-content: center;
   align-items: center;
   gap: 10px;
@@ -37,7 +37,7 @@
 
 .github {
   display: flex;
-  padding: 15px 30px;
+  // padding: 15px 30px;
   justify-content: center;
   align-items: center;
   gap: 10px;
@@ -175,12 +175,12 @@
   .description{
     font-size: 24px;
   }
-  .github{
-    padding: 20px 55px;
-  }
-  .test{
-    padding: 20px 55px;
-  }
+  // .github{
+  //   padding: 20px 55px;
+  // }
+  // .test{
+  //   padding: 20px 55px;
+  // }
 
   .description-container{
     height: 50%;

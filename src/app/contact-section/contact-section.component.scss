@@ -150,19 +150,25 @@
   background-image: url('../../assets/img/sucess.svg');
   background-size: cover;
   border: 1px solid#70E61C;
-  background-position: right top; 
+  background-size: 20px 20px;
   background-repeat: no-repeat;
-  background-size: 30px 30px;
+    padding-right: 15px;
+    background-position: right center;
   background-origin: content-box;
 }
 .background-image-red {
   background-image: url('../../assets/img/error.svg');
   background-size: cover;
   border: 1px solid #E61C40;
-  background-position: right top;
   background-repeat: no-repeat;
-  background-size: 30px 30px;
+  background-size: 20px 20px;
+    padding-right: 15px;
+    background-position: right center;
   background-origin: content-box; 
+}
+
+.textarea{
+  background-position: right top !important;
 }
 
 @media screen and (min-width: 414px) {
@@ -187,6 +193,17 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .background-image-green{
+    background-size: 20px 20px;
+    padding-right: 15px;
+    background-position: right center;
+  }
+  .background-image-red{
+    background-size: 20px 20px;
+    padding-right: 15px;
+    background-position: right center;
+    
+  }
   form {
     position: relative;
   }
@@ -253,4 +270,16 @@
       font-size: 30px;
     }
   }
+  .background-image-green{
+    background-size: 30px 30px;
+  }
+  .background-image-red{
+    background-size: 30px 30px;
+  }
+  .bg-img{
+    top: 733px;
+    right: -549px;
+    height: 317px;
 }
+  }
+

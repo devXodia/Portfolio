@@ -169,6 +169,19 @@
   }
 }
 
+@media screen and (min-width: 1440px){
+  .divider{
+    top: 145px;
+  }
+
+  .skills-container{
+    button{
+      margin: unset;
+    margin-left: 125px;
+    }
+  }
+}
+
 @media screen and (min-width: 1920px){
   .skills-box{
     gap: 68px;
@@ -180,6 +193,10 @@
   .skills-container{
     max-width: 680px;
     max-height: 339px;
+    button{
+      margin: unset;
+    margin-left: 125px;
+    }
   }
 
   .container{
@@ -194,6 +211,7 @@
     background-color: #141d2f;
   }
   .divider{
-    top: 151px;
+    top: 176px;
   }
+  
 }
