@@ -10,10 +10,15 @@
 <div class="content">
     <span>Alen</span>
 
-    <a href="#">
+    <a class="burger-menu" href="#">
         <img *ngIf="showModal" (click)="toggleModal()" src="../../assets/img/close.svg">
         <img *ngIf="!showModal" (click)="toggleModal()" src="../../assets/img/burger_menu.svg">
     </a>
+    <div class="links">
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </div>
 </div>
 
 
