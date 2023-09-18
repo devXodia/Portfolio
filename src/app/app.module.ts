@@ -16,6 +16,7 @@ import { FooterComponent } from './footer/footer.component';
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule} from '@angular/forms';
 import { ImpressumComponent } from './impressum/impressum.component';
+import { MainContentComponent } from './main-content/main-content.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,6 +31,7 @@ import { ImpressumComponent } from './impressum/impressum.component';
     BetweenCfComponent,
     FooterComponent,
     ImpressumComponent,
+    MainContentComponent,
     
   ],
   imports: [
