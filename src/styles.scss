@@ -8,6 +8,11 @@ body{
     font-family: 'Poppins' !important;
 }
 
+html{
+    overflow-x: hidden;
+}
+
+
 :host{
     display: flex;
     flex-direction: column;
