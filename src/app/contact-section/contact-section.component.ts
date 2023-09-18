@@ -31,6 +31,7 @@ export class ContactSectionComponent {
 
     fd.append('name', nameField.value);
     fd.append('message', messageField.value);
+    fd.append('email', emailField.value);
     await fetch('https://alen-alduk.com/send_mail/send_mail.php', {
       method: 'POST',
       body: fd,

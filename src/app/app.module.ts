@@ -15,6 +15,7 @@ import { BetweenCfComponent } from './between-cf/between-cf.component';
 import { FooterComponent } from './footer/footer.component';
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule} from '@angular/forms';
+import { ImpressumComponent } from './impressum/impressum.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,6 +29,7 @@ import { ReactiveFormsModule} from '@angular/forms';
     ContactSectionComponent,
     BetweenCfComponent,
     FooterComponent,
+    ImpressumComponent,
     
   ],
   imports: [

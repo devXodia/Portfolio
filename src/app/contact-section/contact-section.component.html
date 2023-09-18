@@ -19,7 +19,7 @@
 
   <form class="form" (submit)="sendMail()" #myForm ngNativeValidate>
     <input class="name" placeholder="Your name" type="text" name="name" #nameField required (keydown)="onKeyDown($event)">
-    <input class="email" placeholder="Your email" type="email" #emailField required (keydown)="onKeyDown($event)">
+    <input class="email" placeholder="Your email" name="email" type="email" #emailField required (keydown)="onKeyDown($event)">
     <textarea class="textarea" required  name="message" #messageField placeholder="Your message" (keydown)="onKeyDown($event)" ></textarea> 
     <button class="btn-submit" #sendButton type="submit">Send message :)</button>
   </form>
