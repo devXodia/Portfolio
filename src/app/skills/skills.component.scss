@@ -97,6 +97,33 @@
   }
 }
 
+@media screen and (min-width: 350px) and (min-height: 826px) {
+  .btn {
+    max-width: 100%;
+    position: absolute;
+    bottom: 25px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .skills-container{
+    button{
+      position: unset;
+      margin-right: unset;
+    }
+  }
+}
+
+
+@media screen and (min-width: 768px) and (min-height: 826px) {
+  .container{
+    height: 78vh;
+  }
+  .btn{
+    bottom: -23px;
+  }
+}
 @media screen and (min-width: 768px) {
   .skill {
     width: 130px;
@@ -105,9 +132,16 @@
       height: 60px;
     }
   }
-  .container {
-    height: 70vh;
-  }
+  // .container {
+  //   height: 70vh;
+  // }
+}
+
+
+@media screen and (min-width: 1024px) and (min-height: 826px) {
+ .btn {
+  bottom: 204px;
+ }
 }
 
 @media screen and (min-width: 1024px) {
@@ -125,7 +159,7 @@
     gap: 50px;
     button {
       align-self: flex-end;
-      margin-right: 75px;
+      margin-left: 125px;
       position: unset;
     }
   }
@@ -150,68 +184,76 @@
   }
 }
 
-@media screen and (min-width: 1500px){
-  .content{
-    h2{
+@media screen and (min-width: 1500px) {
+  .content {
+    h2 {
       font-size: 92px;
     }
-    p{
+    p {
       font-size: 24px;
     }
   }
-  .divider{
+  .divider {
     top: 212px;
   }
-  .skills-container{
-    button{
+  .skills-container {
+    button {
       margin-right: 130px;
     }
   }
 }
 
-@media screen and (min-width: 1440px){
-  .divider{
+@media screen and (min-width: 1440px) {
+  .divider {
     top: 145px;
   }
 
-  .skills-container{
-    button{
+  .skills-container {
+    button {
       margin: unset;
-    margin-left: 125px;
+      margin-left: 125px;
     }
   }
 }
 
-@media screen and (min-width: 1920px){
-  .skills-box{
+@media screen and (min-width: 1920px) and (min-height: 826px) {
+  .divider {
+    top: 165px;
+  }
+}
+
+@media screen and (min-width: 1920px) and (min-height: 913px) {
+  .divider {
+    top: 200px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .skills-box {
     gap: 68px;
   }
-  .skills-box{
+  .skills-box {
     max-width: 1140px;
     max-height: 515px;
   }
-  .skills-container{
+  .skills-container {
     max-width: 680px;
     max-height: 339px;
-    button{
+    button {
       margin: unset;
-    margin-left: 125px;
+      margin-left: 125px;
     }
   }
 
-  .container{
+  .container {
     max-width: 1920px;
     width: 100%;
   }
-  :host{
+  :host {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #141d2f;
   }
-  .divider{
-    top: 120px;
-  }
-  
 }
