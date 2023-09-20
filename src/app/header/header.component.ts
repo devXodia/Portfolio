@@ -1,5 +1,5 @@
 import { Component, ViewChild } from '@angular/core';
-
+import * as AOS from 'aos'
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -13,7 +13,9 @@ toggleModal(){
   this.showModal = !this.showModal;
 }
 
-
+ngOnInit(){
+  AOS.init();
+}
 
 
 }

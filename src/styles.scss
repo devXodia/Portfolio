@@ -4,12 +4,13 @@
 
 body{
     margin: 0;
-    scroll-behavior: smooth;
+    
     font-family: 'Poppins' !important;
 }
 
 html{
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 
@@ -33,3 +34,25 @@ app-impressum{
     max-width: 1920px;
     font-size: 16px;
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #141d2f;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #9747ff;
+    border-radius: 12px;
+    
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #70e61c;
+  }

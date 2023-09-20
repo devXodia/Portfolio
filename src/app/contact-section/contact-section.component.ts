@@ -1,6 +1,6 @@
 import { ElementSchemaRegistry } from '@angular/compiler';
 import { Component, ViewChild, ElementRef, Renderer2 } from '@angular/core';
-
+import * as AOS from 'aos'
 @Component({
   selector: 'app-contact-section',
   templateUrl: './contact-section.component.html',
@@ -85,5 +85,9 @@ export class ContactSectionComponent {
     emailField.disabled = false;
     messageField.disabled = false;
     sendButton.disabled = false;
+  }
+
+  ngOnInit(){
+    AOS.init();
   }
 }

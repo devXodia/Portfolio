@@ -8,16 +8,16 @@
 <div id="header" class="header">
 
 <div class="content">
-    <a href="#main"><span>Alen</span></a>
+    <a data-aos="fade-right" data-aos-delay="100" data-aos-offset="0" href="#main"><span>Alen</span></a>
 
     <a class="burger-menu" href="#">
         <img *ngIf="showModal" (click)="toggleModal()" src="../../assets/img/close.svg">
-        <img *ngIf="!showModal" (click)="toggleModal()" src="../../assets/img/burger_menu.svg">
+        <img *ngIf="!showModal" (click)="toggleModal()" data-aos="fade-left" data-aos-delay="100" src="../../assets/img/burger_menu.svg">
     </a>
     <div class="links">
-        <a href="#about">About</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
+        <a data-aos="fade-left" data-aos-delay="100" data-aos-offset="0" href="#about">About</a>
+        <a data-aos="fade-left" data-aos-delay="200" data-aos-offset="0" href="#portfolio">Portfolio</a>
+        <a data-aos="fade-left" data-aos-delay="300" data-aos-offset="0"href="#contact">Contact</a>
     </div>
 </div>
 

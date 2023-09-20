@@ -2,10 +2,10 @@
     <div class="skills-container">
         <div class="divider"></div>
         <div class="content">
-            <h2>My Skills</h2>
-            <p>I have gained experience in building projects with various front end technologies and concepts.</p>
+            <h2 data-aos="fade-left" data-aos-delay="100">My Skills</h2>
+            <p data-aos="fade-left" data-aos-delay="200">I have gained experience in building projects with various front end technologies and concepts.</p>
         </div>
-        <div class="btn">
+        <div class="btn" data-aos="fade-left" data-aos-delay="300">
         <a class="link" href="#contact">
         <button>Get in touch</button>
         </a>
@@ -13,7 +13,7 @@
     </div>
 
     <div class="skills-box">
-        <div *ngFor="let skill of skillsList" class="skill">
+        <div  data-aos="fade-right" *ngFor="let skill of skillsList" class="skill">
             <img src="{{ skill.url }}">
             <span>{{ skill.name }}</span>
         </div>

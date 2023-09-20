@@ -1,5 +1,5 @@
 import { Component, ViewChild, AfterViewInit } from '@angular/core';
-
+import * as AOS from 'aos'
 @Component({
   selector: 'app-main-screen',
   templateUrl: './main-screen.component.html',
@@ -10,5 +10,8 @@ import { Component, ViewChild, AfterViewInit } from '@angular/core';
 
 export class MainScreenComponent {
 
+  ngOnInit(){
+    AOS.init();
+  } 
 
 }

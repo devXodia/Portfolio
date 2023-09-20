@@ -1,3 +1,4 @@
+import * as AOS from 'aos'
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./links-section.component.scss']
 })
 export class LinksSectionComponent {
+
+  ngOnInit(){
+    AOS.init();
+  }
 
 }
