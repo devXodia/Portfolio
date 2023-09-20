@@ -297,11 +297,14 @@
     }
     .divider{
       width: 64px;
+      margin-right: 64px;
+
     }
   }
 
   .content{
     margin-right: 25px;
+    padding-right: 64px;
     p{
       width: 100%;
     }
