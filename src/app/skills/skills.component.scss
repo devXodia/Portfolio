@@ -75,7 +75,7 @@
   align-items: center;
   justify-content: center;
   button {
-    position: absolute;
+    
     bottom: 0px;
     margin-right: 25px;
     color: #fff;
@@ -95,6 +95,16 @@
       transform: scale(1.1);
     }
   }
+}
+
+.btn {
+  max-width: 100%;
+  position: absolute;
+  bottom: -17px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media screen and (min-width: 350px) and (min-height: 826px) {
