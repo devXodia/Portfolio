@@ -183,8 +183,11 @@
     width: 100%;
   }
 
+  
   .content {
-    margin-right: unset;
+    
+    margin-right: -43px;
+
     h2 {
       font-size: 62px;
       font-style: normal;
@@ -192,7 +195,7 @@
     }
   }
   .divider {
-    width: 50px;
+    width: 25px;
     top: 222px;
   }
 }
