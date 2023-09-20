@@ -100,13 +100,20 @@
   }
 }
 
+@media screen and (min-width: 1440px){
+  .header{
+    padding: 37px 32px;
+  }
+}
+
 @media screen and (min-width: 1920px){
   .content{
-    min-width: 1870px;
-    max-width: 1870px;
+    min-width: 1792px;
+    max-width: 1792px;
   }
   .header{
     width: 100% !important;
+    padding: 37px 64px;
   }
   .links{
     font-size: 28px;

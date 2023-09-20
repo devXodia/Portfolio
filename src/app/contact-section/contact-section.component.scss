@@ -234,6 +234,13 @@
   }
 }
 
+@media screen and (min-width: 1440px){
+  .container{
+    padding: 37px 32px;
+   
+  }
+}
+
 @media screen and (min-width: 1700px) {
   .container {
     height: 77vh;
@@ -264,6 +271,13 @@
     height: 70vh;
     max-width: 1920px;
     width: 100%;
+    padding: 37px 64px;
+  }
+  .divider{
+    width: 62px;
+  }
+  .head-container{
+    gap: 0px;
   }
   .sub-container {
     margin-top: 73px;

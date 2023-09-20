@@ -107,6 +107,16 @@
   }
 }
 
+@media screen and (min-width: 1440px) {
+  .big-divider{
+    width: 32px;
+  }
+  .container{
+    padding: 37px 32px;
+    padding-right: 0;
+  }
+}
+
 @media screen and (min-width: 1920px){
   .content{
     h2{

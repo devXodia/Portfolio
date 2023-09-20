@@ -192,7 +192,15 @@
     height: 75%;
   }
 }
-
+@media screen and (min-width: 1440px) and (min-height: 817px){
+  .content{
+    padding: unset;
+  }
+  .container{
+    padding: 37px 32px;
+    padding-right: 0;
+  }
+}
 @media screen and (min-width: 1440px){
   .about-picture-container{
     height: 88%;
@@ -204,6 +212,7 @@
     height: 107%;
   }
   .content{
+    
     h2{
       font-size: 92px;
     }
@@ -222,6 +231,8 @@
   .container{
     max-width: 1920px;
     width: 100%;
+    padding: 37px 64px;
+    padding-right: 0;
   }
   :host{
     display: flex;
