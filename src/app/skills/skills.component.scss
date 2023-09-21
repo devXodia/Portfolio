@@ -262,6 +262,12 @@
     padding: 37px 32px;
     padding-right: 0;
   }
+  .content{
+    margin-right: unset;
+  }
+  .btn{
+    right: 64px;
+  }
 }
 
 @media screen and (min-width: 1920px) and (min-height: 826px) {
