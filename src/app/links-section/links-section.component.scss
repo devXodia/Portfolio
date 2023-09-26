@@ -67,8 +67,14 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .container{
+    gap: 30px;
+  }
   .divider{
-    width: 32px;
+    width: 70px;
+  }
+  .scroll-container{
+    right: 5px;
   }
 }
 

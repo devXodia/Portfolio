@@ -221,15 +221,15 @@
 
 @media screen and (min-width: 1440px) and (min-height: 817px){
   .divider{
-    top:169px !important;
+    top: 222px;
     width: 37px;
   }
   .btn{
     right: 37px;
-    bottom: 200px;
+    bottom: 250px;
   }
   .skills-container{
-    margin-right: 42px;
+    margin-right: 100px;
   }
   .skills-box{
     height: 59%;
@@ -249,7 +249,7 @@
 
 @media screen and (min-width: 1440px) {
   .divider {
-    top: 145px;
+    top: 222px;
   }
 
   .skills-container {
@@ -259,14 +259,14 @@
     }
   }
   .container{
-    padding: 37px 32px;
+    padding: 37px 100px;
     padding-right: 0;
   }
   .content{
     margin-right: unset;
   }
   .btn{
-    right: 64px;
+    right: 100px;
   }
 }
 

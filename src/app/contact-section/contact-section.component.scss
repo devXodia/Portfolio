@@ -231,8 +231,18 @@
 
 @media screen and (min-width: 1440px){
   .container{
-    padding: 37px 32px;
-   
+    padding: 37px 100px;
+    gap: 50px;
+    
+  }
+  .sub-container{
+    margin-bottom:unset 
+  }
+  .divider{
+    width: 50px;
+  }
+  .head-container{
+    gap: 42px;
   }
 }
 
