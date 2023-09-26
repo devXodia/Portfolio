@@ -210,9 +210,15 @@
   }
 }
 
+@media screen and (min-width: 414px){
+  .profile-picture{
+    top: -13px;
+  }
+}
+
 @media screen and (min-width: 450px){
   .profile-picture{
-    top: -24px;
+    top: 13px;
   }
 }
 
@@ -226,7 +232,7 @@
 
 @media screen and (min-width:523px) and (min-height: 826px){
   .vector{
-    top: 288px !important;
+    top: 180px !important;
   }
   .horizontal-container{
     top: 101px;
@@ -239,9 +245,21 @@
  }
 }
 
+@media screen and (min-width: 541px){
+  .img-background{
+    height: 58vh;
+  }
+}
+
 @media screen and (min-width:645px) and (min-height: 826px){
   .vector{
     top: 232px !important;
+  }
+}
+
+@media screen and (min-width: 651px){
+  .horizontal-container{
+    top: 87px;
   }
 }
 
@@ -273,6 +291,9 @@
   .text-content-container{
     height: 63%;
     background-position: unset;
+  }
+  .vector{
+    top: 170px;
   }
 }
 
