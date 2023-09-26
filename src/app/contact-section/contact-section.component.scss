@@ -1,5 +1,5 @@
 .container {
-  height: 100vh;
+ 
   width: 100vw;
   max-width: 100%;
   background-color: #141d2f;
@@ -172,9 +172,7 @@
 }
 
 @media screen and (min-width: 414px) {
-  .container {
-    height: 73vh;
-  }
+  
   .bg-img {
     top: 41px;
   }
@@ -187,9 +185,7 @@
     right: -348px;
     transform: rotate(117deg);
   }
-  .container {
-    height: 65vh;
-  }
+  
 }
 
 @media screen and (min-width: 1024px) {
@@ -223,7 +219,6 @@
 
   .container {
     flex-direction: row;
-    height: 75vh;
   }
   .sub-container {
     margin-top: unset;
@@ -242,9 +237,7 @@
 }
 
 @media screen and (min-width: 1700px) {
-  .container {
-    height: 77vh;
-  }
+  
   .sub-container {
     h3 {
       font-size: 45px;
@@ -268,7 +261,6 @@
 
 @media screen and (min-width: 1920px) {
   .container {
-    height: 70vh;
     max-width: 1920px;
     width: 100%;
     padding: 37px 64px;
