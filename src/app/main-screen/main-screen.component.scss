@@ -401,7 +401,7 @@
   }
   
   .vector{
-    top: 124px;
+    top: 124px !important;
   }
 
   .horizontal-container{
@@ -417,7 +417,7 @@
 
 @media screen and (min-width: 1300px){
   .vector{
-    top: 45px;
+    top: 45px !important;
   }
   .background{
     
