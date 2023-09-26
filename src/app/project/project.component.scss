@@ -1,5 +1,4 @@
 .container {
-  height: 100vh;
   width: 100vw;
   max-width: 100%;
   background-color: #141d2f;
@@ -55,8 +54,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 80%;
-  margin-top: 40px;
+  width: 90%;
+  margin-top: 25px;
 }
 
 .title {
@@ -74,6 +73,9 @@
 }
 
 .description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -102,12 +104,20 @@
   position: relative;
 }
 
+@media screen and (min-width: 700px){
+  .project-img {
+    width: 50%;
+  }
+  .buttons-container{
+    width: 50%;
+  }
+}
+
 
 @media screen and (min-width: 1024px){
   .container{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: flex-end;
     height: 387px !important;
     width: 100vw;
@@ -128,12 +138,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 30%;
-    margin-top: unset;
-    position: relative;
-    top: -50px;
-    right: 100px;
-    align-self: flex-start;
+    width: 50%;
   }
 
   
@@ -141,7 +146,7 @@
 
 @media screen and (min-width: 1300px) {
   .buttons-container{
-    width: 35%;
+    width: 55%;
   }
 }
 
@@ -150,26 +155,11 @@
     padding: 37px 32px;
     height: 517px !important; 
   }
-  .buttons-container{
-    top: -106px;
-
-  }
 }
 
-@media screen and (min-width: 1500px){
-  .buttons-container{
-    top: -50px;
-    right: 147px;
-    width: 30%;
-  }
-}
 
 @media screen and (min-width: 1800px){
-  .buttons-container{
-    right: 204px;
-    width: 27%;
-    top: -184px;
-  }
+  
 
   .container{
     
@@ -186,16 +176,9 @@
   .description{
     font-size: 24px;
   }
-  // .github{
-  //   padding: 20px 55px;
-  // }
-  // .test{
-  //   padding: 20px 55px;
-  // }
+ 
 
-  .description-container{
-    height: 50%;
-  }
+  
   
 }
 
@@ -206,8 +189,6 @@
     padding: 37px 64px;
     height: 605px !important;
   }
-  .buttons-container{
-    top: -136px;
-  }
+  
   
 }
