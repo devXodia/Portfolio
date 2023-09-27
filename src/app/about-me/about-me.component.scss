@@ -204,39 +204,12 @@
 @media screen and (min-width: 1440px){
   .about-picture-container{
     height: 88%;
-  }
-}
-
-@media screen and (min-width: 1920px){
-  .about-picture{
-    width: 71% !important;
-  }
-  .about-picture-container{
-    height: 107%;
-    padding-right: 64px;
     
   }
-  .content{
-    
-    h2{
-      font-size: 92px;
-    }
-  }
-  .about-me-text{
-    font-size: 24px;
-  }
-
-  .sub-text{
-    font-size: 22px;
-    img{
-      height: 60px;
-    }
-  }
-
   .container{
-    max-width: 1920px;
+    max-width: 1420px;
     width: 100%;
-    padding: 37px 64px;
+    padding: 37px 100px;
     padding-right: 0;
   }
   :host{
@@ -247,3 +220,7 @@
     background-color: #141d2f;
   }
 }
+
+
+
+  

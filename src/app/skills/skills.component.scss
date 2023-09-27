@@ -255,77 +255,21 @@
   .skills-container {
     button {
       margin: unset;
-      margin-left: 125px;
+      
     }
-  }
-  .container{
-    padding: 37px 100px;
-    padding-right: 0;
   }
   .content{
     margin-right: unset;
   }
   .btn{
-    right: 100px;
-  }
-}
-
-@media screen and (min-width: 1920px) and (min-height: 826px) {
-  .divider {
-    top: 165px;
-    
-  }
-}
-
-@media screen and (min-width: 1920px) and (min-height: 913px) {
-  .divider {
-    top: 200px;
-  }
-}
-
-@media screen and (min-width: 1920px) {
-  .skills-box {
-    gap: 116px;
-  }
-  .skill{
-    width: 130px;
-  }
-  .skills-box {
-    min-height: 515px;
-    min-width: 1140px;
-    max-width: 1140px;
-    max-height: 515px;
-  }
-  .skills-container {
-    max-width: 680px;
-    max-height: 339px;
-    margin-right: 0px;
-    button {
-      margin: unset;
-      margin-left: 125px;
-    }
-    .divider{
-      width: 64px;
-      margin-right: 64px;
-
-    }
-  }
-
-  .content{
-    margin-right: 25px;
-    padding-right: 64px;
-    p{
-      width: 100%;
-    }
+    right: 97px;
   }
   .container {
-    max-width: 1920px;
+    max-width: 1440px;
+    height: 765.4px;
     width: 100%;
-    padding: 37px 64px;
-  }
-
-  .btn{
-    right: 129px;
+    padding: 37px 100px;
+    padding-right: 0;
   }
   
   :host {
@@ -335,10 +279,5 @@
     justify-content: center;
     background-color: #141d2f;
   }
-  .btn{
-    bottom: 172px;
-    button{
-      margin-right: 130px;
-    }
-  }
 }
+

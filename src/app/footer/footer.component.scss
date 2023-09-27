@@ -75,7 +75,8 @@
   }
 }
 
-@media screen and (min-width: 1900px){
+
+@media screen and (min-width: 1440px){
   .links{
     flex: 1;
     height: 60px;
@@ -103,17 +104,14 @@
   }
   .impressum-link{
     position: absolute;
-    left: 263px;
+    left: 182px;
     bottom: 129px;
   }
-}
-
-@media screen and (min-width: 1920px){
   .divider{
-    max-width: 1920px;
+    max-width: 1440px;
   }
   .container{
-    max-width: 1920px;
+    max-width: 1440px;
     width: 100%;
   }
   .impressum-link{

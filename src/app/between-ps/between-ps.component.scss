@@ -118,8 +118,9 @@
     width: 109px;
   }
   .container {
-    padding: 37px 32px;
+    padding: 37px 100px;
     padding-right: 0;
+    max-width: 1440px;
   }
   .content {
     h2 {
@@ -132,19 +133,4 @@
   
 }
 
-@media screen and (min-width: 1920px) {
-  .content {
-    h2 {
-      font-size: 92px;
-    }
-  }
-  .container {
-    max-width: 1920px;
-    overflow: hidden;
-    width: 100%;
-  }
-  .big-divider {
-    width: 64px;
-    margin-right: 64px;
-  }
-}
+

@@ -76,9 +76,6 @@
   .scroll-container{
     right: 5px;
   }
-}
-
-@media screen and (min-width: 1920px){
   :host{
     display: flex;
     flex-direction: column;
@@ -88,16 +85,9 @@
   }
   .container{
     width: 100%;
-    max-width: 1920px;
+    max-width: 1440px;
     height: 7vh;
-    padding: 37px 64px;
-  }
-  .divider{
-    width: 64px;
-  }
-  .scroll-container{
-    right: 0px;
-
-    bottom: 150px;
+    
   }
 }
+

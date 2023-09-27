@@ -154,6 +154,7 @@
   .container{
     padding: 37px 100px;
     height: 517px !important; 
+    max-width: 1440px;
   }
   .title{
     text-align: start;
@@ -169,37 +170,3 @@
 }
 
 
-@media screen and (min-width: 1800px){
-  
-
-  .container{
-    
-    height: 80vh;
-
-  }
-
-  .title{
-    font-size: 62px;
-  }
-  .skills-used{
-    font-size: 38px;
-  }
-  .description{
-    font-size: 24px;
-  }
- 
-
-  
-  
-}
-
-@media screen and (min-width:1920px){
-  .container{
-    max-width: 1920px;
-    width: 100%;
-    padding: 37px 64px;
-    height: 605px !important;
-  }
-  
-  
-}
