@@ -75,7 +75,6 @@
   align-items: center;
   justify-content: center;
   button {
-    
     bottom: 0px;
     margin-right: 25px;
     color: #fff;
@@ -117,20 +116,19 @@
     align-items: center;
     justify-content: center;
   }
-  .skills-container{
-    button{
+  .skills-container {
+    button {
       position: unset;
       margin-right: unset;
     }
   }
 }
 
-
 @media screen and (min-width: 768px) and (min-height: 826px) {
-  .container{
+  .container {
     height: 78vh;
   }
-  .btn{
+  .btn {
     bottom: -23px;
   }
 }
@@ -147,11 +145,10 @@
   // }
 }
 
-
 @media screen and (min-width: 1024px) and (min-height: 826px) {
- .btn {
-  bottom: 204px;
- }
+  .btn {
+    bottom: 204px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -162,7 +159,7 @@
     height: 76vh;
   }
 
-  .btn{
+  .btn {
     bottom: 187px;
   }
   .skills-container {
@@ -183,9 +180,7 @@
     width: 100%;
   }
 
-  
   .content {
-    
     margin-right: -43px;
 
     h2 {
@@ -219,32 +214,32 @@
   }
 }
 
-@media screen and (min-width: 1440px) and (min-height: 817px){
-  .divider{
+@media screen and (min-width: 1440px) and (min-height: 817px) {
+  .divider {
     top: 222px;
     width: 37px;
   }
-  .btn{
+  .btn {
     right: 37px;
     bottom: 250px;
   }
-  .skills-container{
+  .skills-container {
     margin-right: 100px;
   }
-  .skills-box{
+  .skills-box {
     height: 59%;
     width: 43%;
     gap: 61px;
   }
-  .content{
-    p{
+  .content {
+    p {
       width: 70%;
       align-self: flex-end;
     }
   }
-  .skill{
+  .skill {
     width: 67px;
-    }
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -255,28 +250,27 @@
   .skills-container {
     button {
       margin: unset;
-      
     }
   }
 
-  .skills-box{
+  .skills-box {
     gap: 97px;
+    flex: 1;
   }
-  
-  .content{
+
+  .content {
     margin-right: unset;
   }
-  .btn{
+  .btn {
     right: 97px;
   }
   .container {
-    max-width: 1440px;
     height: 765.4px;
     width: 100%;
     padding: 37px 100px;
     padding-right: 0;
   }
-  
+
   :host {
     display: flex;
     flex-direction: column;
@@ -285,4 +279,3 @@
     background-color: #141d2f;
   }
 }
-

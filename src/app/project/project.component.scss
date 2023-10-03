@@ -27,11 +27,11 @@
   border-radius: 10px;
   background-color: #9747ff;
   transition: transform 0.2s;
-    &:hover {
-      cursor: pointer;
-      background-color: #70e61c;
-      transform: scale(1.1);
-    }
+  &:hover {
+    cursor: pointer;
+    background-color: #70e61c;
+    transform: scale(1.1);
+  }
 }
 
 .github {
@@ -43,11 +43,11 @@
   border-radius: 10px;
   border: 1px solid var(--style-1-syle-1-a-green-purple-green, #70e61c);
   transition: transform 0.2s;
-    &:hover {
-      cursor: pointer;
-      background-color: #70e61c;
-      transform: scale(1.1);
-    }
+  &:hover {
+    cursor: pointer;
+    background-color: #70e61c;
+    transform: scale(1.1);
+  }
 }
 
 .buttons-container {
@@ -91,82 +91,75 @@
 
   background-position: bottom;
   bottom: -3416px;
-  
+
   flex-shrink: 0;
 }
-
 
 .above-bg {
   position: relative;
 }
 
-.project-img{
+.project-img {
   position: relative;
 }
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 700px) {
   .project-img {
     width: 50%;
   }
-  .buttons-container{
+  .buttons-container {
     width: 50%;
   }
 }
 
-
-@media screen and (min-width: 1024px){
-  .container{
+@media screen and (min-width: 1024px) {
+  .container {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     height: 387px !important;
     width: 100vw;
   }
-  .project-img{
+  .project-img {
     position: relative;
     width: 50%;
   }
 
-  .description-container{
+  .description-container {
     display: flex;
     gap: 20px;
     flex-direction: column;
     width: 50%;
   }
 
-  .buttons-container{
+  .buttons-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 50%;
   }
-
-  
 }
 
 @media screen and (min-width: 1300px) {
-  .buttons-container{
+  .buttons-container {
     width: 55%;
   }
 }
 
-@media screen and (min-width: 1440px){
-  .container{
+@media screen and (min-width: 1440px) {
+  .container {
     padding: 37px 100px;
-    height: 517px !important; 
-    max-width: 1440px;
+    height: 517px !important;
   }
-  .title{
+  .title {
     text-align: start;
   }
-  .skills-used{
+  .skills-used {
     font-size: 23px;
     text-align: start;
   }
-  .description{
+  .description {
     font-size: 16px;
     text-align: start;
   }
 }
-
-

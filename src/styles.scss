@@ -2,57 +2,55 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    margin: 0;
-    overflow-x: hidden;
-    font-family: 'Poppins' !important;
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: "Poppins" !important;
 }
 
-html{
-    overflow-x: hidden;
-    scroll-behavior: smooth;
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
-
-:host{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #141d2f;
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  // background-color: #141d2f;
 }
 
-app-main-content{
-    max-width: 100%;
+app-main-content {
+  max-width: 100%;
 }
 
-app-impressum{
-    color: white;
-    width: 100vw;
-    padding: 37px 25px;
-   
-    max-width: 1920px;
-    font-size: 16px;
+app-impressum {
+  color: white;
+  width: 100vw;
+  padding: 37px 25px;
+
+  max-width: 1920px;
+  font-size: 16px;
 }
 
 /* width */
 ::-webkit-scrollbar {
-    width: 10px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #141d2f;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #9747ff;
-    border-radius: 12px;
-    
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #70e61c;
-  }
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #141d2f;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #9747ff;
+  border-radius: 12px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #70e61c;
+}

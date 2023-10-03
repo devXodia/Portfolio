@@ -1,5 +1,4 @@
 .container {
- 
   width: 100vw;
   max-width: 100%;
   background-color: #141d2f;
@@ -113,7 +112,9 @@
   }
 }
 
-.name:focus, .email:focus, .textarea:focus{
+.name:focus,
+.email:focus,
+.textarea:focus {
   outline: none;
 }
 
@@ -144,35 +145,32 @@
   width: 100%;
 }
 
-
-
 .background-image-green {
-  background-image: url('../../assets/img/sucess.svg');
+  background-image: url("../../assets/img/sucess.svg");
   background-size: cover;
   border: 1px solid#70E61C;
   background-size: 20px 20px;
   background-repeat: no-repeat;
-    padding-right: 15px;
-    background-position: right center;
+  padding-right: 15px;
+  background-position: right center;
   background-origin: content-box;
 }
 .background-image-red {
-  background-image: url('../../assets/img/error.svg');
+  background-image: url("../../assets/img/error.svg");
   background-size: cover;
-  border: 1px solid #E61C40;
+  border: 1px solid #e61c40;
   background-repeat: no-repeat;
   background-size: 20px 20px;
-    padding-right: 15px;
-    background-position: right center;
-  background-origin: content-box; 
+  padding-right: 15px;
+  background-position: right center;
+  background-origin: content-box;
 }
 
-.textarea{
+.textarea {
   background-position: right top !important;
 }
 
 @media screen and (min-width: 414px) {
-  
   .bg-img {
     top: 41px;
   }
@@ -185,20 +183,18 @@
     right: -348px;
     transform: rotate(117deg);
   }
-  
 }
 
 @media screen and (min-width: 1024px) {
-  .background-image-green{
+  .background-image-green {
     background-size: 20px 20px;
     padding-right: 15px;
     background-position: right center;
   }
-  .background-image-red{
+  .background-image-red {
     background-size: 20px 20px;
     padding-right: 15px;
     background-position: right center;
-    
   }
   form {
     position: relative;
@@ -229,20 +225,18 @@
   }
 }
 
-@media screen and (min-width: 1440px){
-  .container{
+@media screen and (min-width: 1440px) {
+  .container {
     padding: 37px 100px;
     gap: 50px;
-    max-width: 1440px;
   }
-  .sub-container{
-    margin-bottom:unset 
+  .sub-container {
+    margin-bottom: unset;
   }
-  .divider{
+  .divider {
     width: 50px;
   }
-  .head-container{
+  .head-container {
     gap: 42px;
   }
 }
-

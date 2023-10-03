@@ -46,9 +46,8 @@
   flex-shrink: 0;
 }
 
-
-@media screen and (min-width: 1024px){
-  .bg-img{
+@media screen and (min-width: 1024px) {
+  .bg-img {
     width: 524px;
     height: 348px;
     left: -321px;
@@ -56,14 +55,12 @@
   }
 }
 
-@media screen and (min-width: 1440px){
-  .container{
+@media screen and (min-width: 1440px) {
+  .container {
     padding: 37px 100px;
-    max-width: 1440px;
     width: 100%;
-    a{
+    a {
       right: 100px;
     }
   }
 }
-

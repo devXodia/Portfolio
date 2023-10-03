@@ -95,7 +95,7 @@
     bottom: -224px;
   }
   .big-divider {
-    width: 25px;
+    width: 35vw;
   }
 
   .content {
@@ -112,7 +112,7 @@
 
 @media screen and (min-width: 1440px) {
   .big-divider {
-    width: 484px;
+    width: 32vw;
   }
   .sm-divider {
     width: 109px;
@@ -120,7 +120,6 @@
   .container {
     padding: 37px 100px;
     padding-right: 0;
-    max-width: 1440px;
   }
   .content {
     h2 {
@@ -130,7 +129,4 @@
       line-height: 108px;
     }
   }
-  
 }
-
-

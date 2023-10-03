@@ -1,26 +1,146 @@
-
 <div id="#main" class="main-container">
-  
-  
+  <!-- Header -->
+  <div [ngClass]="{ modal: true, show: showModal }" class="modal">
+    <a href="#about" (click)="toggleModal()">About me</a>
+    <a href="#skills" (click)="toggleModal()">My skills</a>
+    <a href="#portfolio" (click)="toggleModal()">Portfolio</a>
+    <a href="#contact" (click)="toggleModal()">Contact</a>
+  </div>
+
+  <div id="header" class="header">
+    <div class="content">
+      <a
+        data-aos="fade-right"
+        data-aos-delay="100"
+        data-aos-offset="0"
+        href="#main"
+        ><span>Alen</span></a
+      >
+
+      <a class="burger-menu" href="#">
+        <img
+          *ngIf="showModal"
+          (click)="toggleModal()"
+          src="../../assets/img/close.svg"
+        />
+        <img
+          *ngIf="!showModal"
+          (click)="toggleModal()"
+          data-aos="fade-left"
+          data-aos-delay="100"
+          src="../../assets/img/burger_menu.svg"
+        />
+      </a>
+      <div class="links">
+        <a
+          data-aos="fade-left"
+          data-aos-delay="100"
+          data-aos-offset="0"
+          href="#about"
+          >About</a
+        >
+        <a
+          data-aos="fade-left"
+          data-aos-delay="200"
+          data-aos-offset="0"
+          href="#portfolio"
+          >Portfolio</a
+        >
+        <a
+          data-aos="fade-left"
+          data-aos-delay="300"
+          data-aos-offset="0"
+          href="#contact"
+          >Contact</a
+        >
+      </div>
+    </div>
+  </div>
+
+  <!-- Main content alone -->
 
   <div class="img-background">
     <div class="background">
-    <img class="profile-picture" src="../../assets/img/side_sm_no_bg.png"/>
+      <img class="profile-picture" src="../../assets/img/side_sm_no_bg.png" />
     </div>
-    <img class="vector" src="../../assets/img/vector.svg">
+    <img class="vector" src="../../assets/img/vector.svg" />
   </div>
-  <div  class="text-content-container">
-    
-<div class="sub-container">
-<div   class="horizontal-container">
-  <div data-aos="fade-down" data-aos-delay="600" data-aos-offset="0"class="iam-container"><span >I am</span></div>
-    <span data-aos="fade-up" data-aos-delay="600" data-aos-offset="0"class="name">Alen Alduk</span>
-<span data-aos="fade-up" data-aos-delay="600" data-aos-offset="0"class="dev-span">FRONTEND DEVELOPER</span>
+  <div class="text-content-container">
+    <div class="sub-container">
+      <div class="horizontal-container">
+        <div
+          data-aos="fade-down"
+          data-aos-delay="600"
+          data-aos-offset="0"
+          class="iam-container"
+        >
+          <span>I am</span>
+        </div>
+        <span
+          data-aos="fade-up"
+          data-aos-delay="600"
+          data-aos-offset="0"
+          class="name"
+          >Alen Alduk</span
+        >
+        <span
+          data-aos="fade-up"
+          data-aos-delay="600"
+          data-aos-offset="0"
+          class="dev-span"
+          >FRONTEND DEVELOPER</span
+        >
 
-<a data-aos="fade-up" data-aos-delay="700" data-aos-offset="0"href="#contact">
-<button class="btn">Let's Talk!</button></a></div></div>
+        <a
+          data-aos="fade-up"
+          data-aos-delay="700"
+          data-aos-offset="0"
+          href="#contact"
+        >
+          <button class="btn">Let's Talk!</button></a
+        >
+      </div>
+    </div>
+  </div>
 
+  <!-- links -->
+
+  <div class="links-container">
+    <div class="divider"></div>
+    <a target="_blank" href="https://github.com/devXodia">
+      <img
+        data-aos="fade-left"
+        data-aos-delay="100"
+        data-aos-offset="0"
+        src="../../assets/img/Github.svg"
+      />
+    </a>
+    <a href="mailto:a.alduk@icloud.com">
+      <img
+        data-aos="fade-left"
+        data-aos-delay="200"
+        data-aos-offset="0"
+        src="../../assets/img/Email.svg"
+      />
+    </a>
+    <a target="_blank" href="https://www.linkedin.com/in/alen-alduk/">
+      <img
+        data-aos="fade-left"
+        data-aos-delay="300"
+        data-aos-offset="0"
+        src="../../assets/img/LinkedIn.svg"
+      />
+    </a>
+    <span
+      data-aos="fade-left"
+      data-aos-offset="0"
+      data-aos-delay="500"
+      class="mail"
+      >a.alduk@icloud.com</span
+    >
+    <div class="scroll-container">
+      <span>Scroll down</span>
+      <img src="../../assets/img/arrow-mobile.svg" />
+    </div>
+  </div>
 </div>
-    
-  </div>
-
