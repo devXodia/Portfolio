@@ -108,7 +108,9 @@
     width: 50%;
   }
   .buttons-container {
-    width: 50%;
+    width: 100%;
+    gap: 120px;
+    justify-content: center;
   }
 }
 
@@ -134,32 +136,30 @@
 
   .buttons-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 100%;
+    gap: 120px;
   }
-}
 
-@media screen and (min-width: 1300px) {
-  .buttons-container {
-    width: 55%;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .container {
-    padding: 37px 100px;
-    height: 517px !important;
-  }
-  .title {
-    text-align: start;
-  }
-  .skills-used {
-    font-size: 23px;
-    text-align: start;
-  }
-  .description {
-    font-size: 16px;
-    text-align: start;
+  @media screen and (min-width: 1440px) {
+    .container {
+      padding: 37px 100px;
+      height: 553px !important;
+    }
+    .title {
+      text-align: start;
+    }
+    .skills-used {
+      font-size: 23px;
+      text-align: start;
+    }
+    .description {
+      font-size: 16px;
+      text-align: start;
+    }
+    .buttons-container {
+      justify-content: left;
+    }
   }
 }

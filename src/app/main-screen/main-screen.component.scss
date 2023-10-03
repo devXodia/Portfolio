@@ -263,9 +263,6 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
-}
-
 @media screen and (min-width: 1024px) {
   .burger-menu {
     display: none;
@@ -581,24 +578,12 @@
   }
 }
 
-@media screen and (min-width: 1300px) {
-  .vector {
-    top: 45px !important;
-  }
-  .background {
-    width: 54%;
-  }
-}
-
 @media screen and (min-width: 1371px) and (max-height: 826px) {
   .img-background {
     height: 75vh !important;
   }
   .background {
     width: 58%;
-  }
-  .profile-picture {
-    top: -58px;
   }
   .vector {
     top: 30px !important;
@@ -651,14 +636,14 @@
     // max-width: 1440px;
     height: 7vh;
   }
+  .vector {
+    top: 149px !important;
+  }
 }
 
 @media screen and (min-width: 1440px) and (min-height: 913px) {
   .img-background {
     height: 61% !important;
-  }
-  .vector {
-    top: 232px !important;
   }
 }
 
@@ -671,5 +656,8 @@
   }
   .vector {
     top: 45px !important;
+  }
+  .background {
+    width: 58%;
   }
 }

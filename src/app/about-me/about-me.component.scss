@@ -194,7 +194,10 @@
 }
 @media screen and (min-width: 1440px) {
   .about-picture-container {
-    height: 88%;
+    height: 100%;
+  }
+  .about-picture {
+    width: 557px;
   }
   .container {
     width: 100%;
