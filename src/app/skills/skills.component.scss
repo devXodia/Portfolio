@@ -255,7 +255,6 @@
 
   .skills-box {
     gap: 97px;
-    flex: 1;
   }
 
   .content {
@@ -277,5 +276,11 @@
     align-items: center;
     justify-content: center;
     background-color: #141d2f;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .skills-box {
+    flex: 1;
   }
 }
