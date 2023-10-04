@@ -13,7 +13,7 @@
 }
 
 .img-background {
-  height: 58vh;
+  height: 53vh;
   width: 100vw;
   position: relative;
 }
@@ -41,7 +41,7 @@
   position: absolute;
   width: 100vw;
 
-  top: 203px;
+  top: 180px;
 }
 
 .text-content-container {
@@ -286,10 +286,10 @@
 
 @media screen and (min-width: 350px) and (min-height: 826px) {
   .img-background {
-    height: 63vh !important;
+    height: 58vh !important;
   }
   .vector {
-    top: 349px !important;
+    top: 316px !important;
   }
   .horizontal-container {
     top: 93px;
