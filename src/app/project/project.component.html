@@ -1,5 +1,5 @@
 <div class="container">
-    <ng-content select="[bg-img]"></ng-content>
+  <ng-content select="[bg-img]"></ng-content>
   <div class="project-img">
     <ng-content select="[img]"></ng-content>
   </div>
@@ -14,14 +14,19 @@
     <div class="description">
       <ng-content select="[description]"></ng-content>
       <div class="buttons-container">
-        <div  data-aos="fade-right" class="test">
-          <ng-content style="padding: 15px 30px;" select="[test-btn]"></ng-content>
+        <div data-aos="fade-right" class="test">
+          <ng-content
+            style="padding: 15px 30px"
+            select="[test-btn]"
+          ></ng-content>
         </div>
-        <div data-aos="fade-right"  class="github">
-          <ng-content style="padding: 15px 30px;" select="[github-btn]"></ng-content>
+        <div data-aos="fade-right" class="github">
+          <ng-content
+            style="padding: 15px 30px"
+            select="[github-btn]"
+          ></ng-content>
         </div>
       </div>
     </div>
   </div>
-  
 </div>
