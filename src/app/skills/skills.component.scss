@@ -268,6 +268,7 @@
     width: 100%;
     padding: 37px 100px;
     padding-right: 0;
+    max-width: 1440px;
   }
 
   :host {
@@ -276,11 +277,5 @@
     align-items: center;
     justify-content: center;
     background-color: #141d2f;
-  }
-}
-
-@media screen and (min-width: 1920px) {
-  .skills-box {
-    flex: 1;
   }
 }

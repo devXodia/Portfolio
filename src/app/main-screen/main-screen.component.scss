@@ -596,6 +596,10 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .main-container {
+    max-width: 1440px;
+  }
+
   .horizontal-container {
     top: -409px;
     width: 74%;
@@ -603,6 +607,7 @@
 
   .text-content-container {
     height: 110%;
+    max-width: 1440px;
   }
 
   :host {
@@ -615,7 +620,7 @@
   }
   .header {
     padding: 37px 100px;
-    // max-width: 1440px;
+    max-width: 1440px;
 
     font-size: 23px;
     font-style: normal;
@@ -638,11 +643,15 @@
 
   .links-container {
     width: 100%;
-    // max-width: 1440px;
+    max-width: 1440px;
     height: 7vh;
   }
   .vector {
     top: 149px !important;
+  }
+
+  .img-background {
+    max-width: 1440px;
   }
 }
 
@@ -652,17 +661,17 @@
   }
 }
 
-@media screen and (min-width: 1441px) {
-  .img-background {
-    height: 77% !important;
-  }
-  .horizontal-container {
-    top: -309px;
-  }
-  .vector {
-    top: 45px !important;
-  }
-  .background {
-    width: 48%;
-  }
-}
+// @media screen and (min-width: 1441px) {
+//   .img-background {
+//     height: 77% !important;
+//   }
+//   .horizontal-container {
+//     top: -309px;
+//   }
+//   .vector {
+//     top: 45px !important;
+//   }
+//   .background {
+//     width: 48%;
+//   }
+// }

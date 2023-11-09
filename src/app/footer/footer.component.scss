@@ -88,6 +88,7 @@
     padding: 37px 100px;
     flex-direction: row;
     justify-content: space-between;
+    max-width: 1440px;
     h2 {
       font-size: 62px;
     }
@@ -110,5 +111,8 @@
   }
   .impressum-link {
     bottom: 93px;
+  }
+  .divider {
+    max-width: 1440px;
   }
 }
