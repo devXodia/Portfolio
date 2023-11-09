@@ -122,6 +122,12 @@
     padding-right: 0;
     max-width: 1440px;
   }
+
+  .bg-img {
+    max-width: 120px;
+    height: 72%;
+    left: 39px;
+  }
   .content {
     h2 {
       width: 389px;
@@ -129,5 +135,11 @@
       text-align: center;
       line-height: 108px;
     }
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  .bg-img {
+    left: -225px;
   }
 }
