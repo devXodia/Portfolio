@@ -230,7 +230,6 @@
   .container {
     padding: 37px 100px;
     gap: 50px;
-    max-width: 1440px;
   }
   .sub-container {
     margin-bottom: unset;
@@ -240,5 +239,12 @@
   }
   .head-container {
     gap: 42px;
+  }
+
+  .bg-img {
+    top: 469px;
+    right: -316px;
+    height: 355px;
+    width: 61%;
   }
 }
