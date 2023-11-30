@@ -218,10 +218,12 @@
     flex-direction: row;
   }
   .sub-container {
-    margin-top: unset;
     margin-bottom: 175px;
     h3 {
       font-size: 32px;
+    }
+    p {
+      max-width: 400px;
     }
   }
 }
